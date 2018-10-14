@@ -2,6 +2,7 @@ package AlphabetPatterns;
 import java.util.Scanner;
 public class B {
 	public static void main(String[] args) {
+		//for taking user input
 		Scanner scn=new Scanner(System.in);
 		System.out.println("Enter the number of rows");
 		int n=scn.nextInt();
