@@ -1,8 +1,8 @@
-
+package AlphabetPatterns;
 import java.util.Scanner;
-public class B {
+public class D {
+
 	public static void main(String[] args) {
-		//for taking user input
 		Scanner scn=new Scanner(System.in);
 		System.out.println("Enter the number of rows");
 		int n=scn.nextInt();
@@ -10,9 +10,9 @@ public class B {
 		
 		for(int i=0;i<n;i++)
 		{
-			for(int j=0;j<n/2+6;j++)
+			for(int j=0;j<n;j++)
 			{
-				if(i==0||j==0||j==n/2+5||i==n/2||i==n-1)
+				if(i==0||i==n-1||j==0||j==n-1)
 				{
 					System.out.print("*");
 				}
@@ -22,8 +22,6 @@ public class B {
 			}
 			System.out.println();
 		}
-		
-		
-		
-	}
+
+}
 }
