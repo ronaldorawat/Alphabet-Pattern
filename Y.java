@@ -1,4 +1,3 @@
-package AlphabetPatterns;
 
 import java.util.Scanner;
 
